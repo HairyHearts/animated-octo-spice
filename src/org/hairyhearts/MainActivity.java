@@ -152,6 +152,7 @@ public class MainActivity extends Activity {
     
     public void complete() {
         startActivity(new Intent(this, SuccessActivity.class));
+        finish();
     }
     
     private static class GetRegistrationId extends AsyncTask<Void, Void, Void> {

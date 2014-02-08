@@ -11,6 +11,8 @@ public class GCMService extends IntentService {
 
     public GCMService() {
         super("GCMService");
+
+        Log.d("GCMService", "");
     }
 
     @Override
